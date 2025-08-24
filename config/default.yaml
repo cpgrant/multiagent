@@ -1,0 +1,11 @@
+models:
+  planner: "gpt-4o-mini"         # change if you like
+  executor_reasoning: "gpt-4o-mini"
+  critic: "gpt-4o-mini"
+budgets:
+  max_cost_usd: 1.00
+  max_tokens: 30000
+retry:
+  step_max_attempts: 2
+memory:
+  topk: 5
