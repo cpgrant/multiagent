@@ -1,3 +1,6 @@
+![CI](https://github.com/cpgrant/multiagent/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.11-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 # 🧩 Multi-Agent Scaffold (Planner → Executor → Critic)
 
