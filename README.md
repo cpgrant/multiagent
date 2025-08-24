@@ -1,5 +1,3 @@
-Here’s a full README.md you can copy-paste directly into your repo.
-
 # 🧩 Multi-Agent Scaffold (Planner → Executor → Critic)
 
 A tiny, test-covered scaffold that turns **natural language instructions** into a **plan**, chooses the right **tool**, executes it, and **checks the result**.  
