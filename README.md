@@ -1,8 +1,10 @@
-![CI](https://github.com/cpgrant/multiagent/actions/workflows/ci.yml/badge.svg)
+# 🧩 Multi-Agent Scaffold
+
+[![CI](https://github.com/cpgrant/multiagent/actions/workflows/ci.yml/badge.svg)](https://github.com/cpgrant/multiagent/actions)
 ![Python](https://img.shields.io/badge/python-3.11-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-# 🧩 Multi-Agent Scaffold (Planner → Executor → Critic)
+> A lightweight multi-agent scaffold (Planner → Executor → Critic → Orchestrator) that turns plain-English prompts into tool calls, results, and self-checks.
 
 A tiny, test-covered scaffold that turns **natural language instructions** into a **plan**, chooses the right **tool**, executes it, and **checks the result**.  
 It’s like a baby AI agent: **plan → act → review**.
