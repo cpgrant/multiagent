@@ -1,3 +1,4 @@
+
 # 🧩 Multi-Agent Scaffold (Planner → Executor → Critic)
 
 A tiny, test-covered scaffold that turns **natural language instructions** into a **plan**, chooses the right **tool**, executes it, and **checks the result**.  
@@ -10,17 +11,17 @@ It’s like a baby AI agent: **plan → act → review**.
   1. Clarify the goal  
   2. Choose a tool (`math` or `echo`)  
   3. Execute & summarize  
-- **Executor** runs the chosen tool, with a **max-attempts guard** to avoid infinite retries  
+- **Executor** runs the chosen tool, with a max-attempts guard to avoid infinite retries  
 - **Critic** verifies acceptance criteria (e.g. “summary must mention the result”)  
 - **Orchestrator** ties everything together with a dynamic tool registry  
-- **Tools**:  
+- **Tools**:
   - `math` → supports add, subtract, multiply, divide (with divide-by-zero protection)  
   - `echo` → repeats your text back  
 
 ---
 
 ## 🧱 Project structure
-
+```text
 .
 ├── agents/               # planner, executor, critic, router
 ├── core/                 # orchestrator, shared state
@@ -30,12 +31,13 @@ It’s like a baby AI agent: **plan → act → review**.
 ├── requirements.txt
 └── README.md
 
----
 
-## 🚀 Quickstart
+⸻
 
-### 1. Clone & install
-```bash
+🚀 Quickstart
+
+1. Clone & install
+
 git clone https://github.com/YOUR_USER/multiagent.git
 cd multiagent
 python -m venv .venv && source .venv/bin/activate
